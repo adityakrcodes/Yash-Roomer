@@ -1,0 +1,45 @@
+{
+  "engines": {
+    "node": "20.15.1"
+  },
+  "name": "roomer",
+  "version": "1.0.0",
+  "description": "## Purpose: The newcomers in various cities of India don’t have contacts when they arrive and as a result, have difficulty finding roommates to stay at shared rentals at affordable pricing. This issue is faced by professionals and students alike.  We aim to simplify the process of finding roommates.",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm install && cd client && npm install && cd ..",
+    "dev": "nodemon server.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yashvardhan0718/Roomer"
+  },
+  "author": "Yashvardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashvardhan0718/Roomer/settings"
+  },
+  "homepage": "https://github.com/Yashvardhan0718/Roomer",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "connect-mongo": "^3.2.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.19",
+    "node": "^20.15.1",
+    "path": "^0.12.7",
+    "validator": "^13.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^2.0.6"
+  }
+}
