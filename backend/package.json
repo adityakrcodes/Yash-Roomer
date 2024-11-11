@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "20.15.1"
-  },
   "name": "roomer",
   "version": "1.0.0",
   "description": "## Purpose: The newcomers in various cities of India don’t have contacts when they arrive and as a result, have difficulty finding roommates to stay at shared rentals at affordable pricing. This issue is faced by professionals and students alike.  We aim to simplify the process of finding roommates.",
